@@ -11,4 +11,4 @@ public:
     void displayResult() const;
 };
 
-#endif
+
