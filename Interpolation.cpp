@@ -9,7 +9,7 @@ double linearInterpolate(double x0, double y0, double x1, double y1, double x) {
 int main() {
     double x0 = 1.0, y0 = 2.0;
     double x1 = 3.0, y1 = 6.0;
-    double x = 2.0;
+    double x = 5.0;
 
     double y = linearInterpolate(x0, y0, x1, y1, x);
 
