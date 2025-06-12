@@ -13,7 +13,7 @@ public class JacobiMethod {
                         sum += A[i][j] * x[j];
                     }
                 }
-                xNew[i] = (b[i] - sum) / A[i][i];
+                xNew[i] = (b[i] + sum) / A[i][i];
             }
 
             // Check for convergence
