@@ -3,7 +3,7 @@
 #include "LeapYearChecker.h"
 
 LeapYearChecker::LeapYearChecker(int y) {
-    if (y < 1000 || y > 9999) {
+    if (y < 1000 || y > 999) {
         throw std::invalid_argument("Year must be a 4-digit positive integer.");
     }
     year = y;
