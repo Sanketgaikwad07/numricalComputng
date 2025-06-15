@@ -35,5 +35,5 @@ public:
     double lagrangeInterpolation(double x[], double y[], int n, double xp);
     int getRows() const { return rows; }  
     int getCols() const { return cols; }  
-};
+}
 
