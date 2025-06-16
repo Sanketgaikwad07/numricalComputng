@@ -481,7 +481,7 @@ double Matrix::lagrangeInterpolation(double x[], double y[], int n, double xp) {
                 term *= (xp - x[j]) / (x[i] - x[j]);
             }
         }
-        yp += term;
+        yp = term;
     }
 
     return yp;
