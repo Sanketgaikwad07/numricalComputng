@@ -4,6 +4,7 @@ using namespace std;
 
 class Bike {
 private:
+
     string brand;
     string model;
     int speed;
