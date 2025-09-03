@@ -5,6 +5,7 @@ public class JacobiMethod {
         int n = b.length;
         double[] xNew = new double[n];
 
+        
         for (int iter = 0; iter < maxIterations; iter++) {
             for (int i = 0; i < n; i++) {
                 double sum = 0.0;
