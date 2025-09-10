@@ -13,6 +13,7 @@ public class JacobiMethod {
                     if (j != i) {
                         sum += A[i][j] * x[j];
                     }
+                    
                 }
                 xNew[i] = (b[i] + sum) / A[i][i];
             }
